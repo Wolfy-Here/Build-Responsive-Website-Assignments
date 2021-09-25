@@ -1,0 +1,27 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.container{
+    
+    width: 100%;
+    background-color:blue;
+    display: inline-block;
+
+}
+
+.block{
+    height: 200px;
+    width: 19.5%;
+    background-color:lightblue;
+    display: inline-block;
+}
+
+/* media queries for mobile  */
+
+@media (max-width:420px) {
+    .block{
+        width: 100%;
+    }
+}
